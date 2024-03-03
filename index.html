@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hide-Text</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hide Your Text</h1>
+      <h3>Binary To Text & Text To Bnary Converter</h3>
+      <div class="converter">
+        <textarea
+          id="binaryInput"
+          placeholder="Enter binary code..."
+          rows="2"
+        ></textarea>
+        <button onclick="binaryToText()">Binary to Text</button>
+        <textarea
+          id="textInput"
+          placeholder="Converted text..."
+          rows="4"
+          readonly
+        ></textarea>
+        <hr />
+        <textarea
+          id="textInput2"
+          placeholder="Enter text..."
+          rows="2"
+        ></textarea>
+        <button onclick="textToBinary()">Text to Binary</button>
+        <textarea
+          id="binaryOutput"
+          placeholder="Converted binary code..."
+          rows="4"
+          readonly
+        ></textarea>
+      </div>
+      <p>&copy; Md.Sabbir Sheikh</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
